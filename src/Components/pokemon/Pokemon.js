@@ -312,7 +312,7 @@ export default class Pokemon extends Component {
   }
 
   update(){
-    forceUpdate();
+    this.forceUpdate();
   }
 
   Modal({ children }) {
