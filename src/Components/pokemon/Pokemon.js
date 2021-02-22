@@ -88,7 +88,7 @@ export default class Pokemon extends Component {
       const pokemonData2 = await axios.get(seccondUrl);
       const pokemon2 = pokemonData2.data["pokemon"];
       this.setState({seccondUrl,pokemon2})
-    } else {null}
+    } : null;
     //const pokemonData2 = await axios.get(seccondUrl);
     //const pokemon2 = pokemonData2.data["pokemon"];
 
